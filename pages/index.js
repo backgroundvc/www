@@ -14,7 +14,7 @@ const themes = {
     main: 'black'
   },
   dark: {
-    bodyBg: 'black',
+    bodyBg: '#202124',
     main: 'white'
   }
 }
