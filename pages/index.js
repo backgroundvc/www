@@ -248,6 +248,7 @@ export default class Index extends React.Component {
           border-left: 1px solid ${theme.main};
           height: 100px;
           margin-bottom: 20px;
+          opacity: .25;
         }
         .logotype {
           margin-bottom: 50px;
@@ -297,6 +298,32 @@ export default class Index extends React.Component {
           padding: 30px;
           flex-direction: column;
           animation: fadein 2s;
+        }
+        @media (max-width: 1300px) {
+          .wrapper {
+            padding: 0;
+          }
+          .audios {
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            width: 500px;
+            justify-content: space-between;
+          }
+          .audio {
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+          .intro{
+            height: 100vh;
+          }
+          .logotype svg {
+            max-width: 100%;
+            height: auto;
+          }
+          .messages {
+            height: auto;
+            margin-bottom: 100px;
+          }
         }
         @media (max-width: 768px) {
           .wrapper {
