@@ -299,15 +299,14 @@ export default class Index extends React.Component {
           flex-direction: column;
           animation: fadein 2s;
         }
-        @media (max-width: 1300px) {
+        @media (max-width: 1460px) {
           .wrapper {
             padding: 0;
           }
           .audios {
             margin-bottom: 30px;
             flex-wrap: wrap;
-            width: 500px;
-            justify-content: space-between;
+            width: 580px;
           }
           .audio {
             margin-right: 0;
@@ -326,33 +325,8 @@ export default class Index extends React.Component {
           }
         }
         @media (max-width: 768px) {
-          .wrapper {
-            padding: 0;
-          }
           .audios {
-            margin-bottom: 30px;
-            flex-wrap: wrap;
             width: 350px;
-            justify-content: space-between;
-          }
-          .audio {
-            margin-right: 0;
-            margin-bottom: 10px;
-          }
-          .intro{
-            height: 100vh;
-          }
-          .logotype svg {
-            max-width: 100%;
-            height: auto;
-          }
-          .messages {
-            height: auto;
-            margin-bottom: 100px;
-          }
-          .name {
-            font-size: 34px;
-          }
         }
         @media (max-width: 375px) {
           .audios {
