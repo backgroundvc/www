@@ -171,6 +171,8 @@ export default class Index extends React.Component {
           <a href="https://www.linkedin.com/pulse/introducing-background-capital-rafael-corrales/" target="_blank">Fund 1</a>
           /
           <a href="https://www.linkedin.com/pulse/background-capital-fund-2-rafael-corrales/" target="_blank">Fund 2</a>
+          /
+          <a href="https://www.linkedin.com/pulse/background-capital-fund-3-rafael-corrales" target="_blank">Fund 3</a>
         </div>
       </div>
       <style jsx>{`
