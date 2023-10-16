@@ -172,7 +172,9 @@ export default class Index extends React.Component {
           /
           <a href="https://www.linkedin.com/pulse/background-capital-fund-2-rafael-corrales/" target="_blank">Fund 2</a>
           /
-          <a href="https://www.linkedin.com/pulse/background-capital-fund-3-rafael-corrales" target="_blank">Fund 3</a>
+          <a href="https://www.linkedin.com/pulse/background-capital-fund-3-rafael-corrales/" target="_blank">Fund 3</a>
+          /
+          <a href="https://www.linkedin.com/pulse/background-capital-fund-4-rafael-corrales/" target="_blank">Fund 4</a>
         </div>
       </div>
       <style jsx>{`
@@ -308,7 +310,7 @@ export default class Index extends React.Component {
           .audios {
             margin-bottom: 30px;
             flex-wrap: wrap;
-            width: 580px;
+            width: 450px;
           }
           .audio {
             margin-right: 0;
