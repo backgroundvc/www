@@ -330,7 +330,7 @@ export default class Index extends React.Component {
         }
         @media (max-width: 768px) {
           .audios {
-            width: 350px;
+            width: 360px;
         }
         @media (max-width: 375px) {
           .audios {
